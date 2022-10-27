@@ -102,6 +102,12 @@
     0% {
         transform: skew(30deg);
     }
+    50% {
+        transform: skew(0deg);
+    }
+    0% {
+        transform: skew(30deg);
+    }
 }
 
 .first__block p {
@@ -979,6 +985,9 @@
     }
 }
 @media(max-width:325px) {
+    .header {
+        padding-bottom: 40px;
+    }
     .ul a {
         font-size: 15px;
     }
